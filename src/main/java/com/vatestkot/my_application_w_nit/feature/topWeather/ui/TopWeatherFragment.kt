@@ -54,7 +54,7 @@ class TopWeatherFragment : MvpAppCompatFragment(R.layout.fragment_top_weather), 
         weathersAdapter?.setData(weather)
     }
 /*    override fun setWeathers(weather: List<Weather>) {
-        weathersAdapter?.submitList(weather)
+        weathersAdapter?.setData(weather)
     }*/
 
     //WeatherDetail
