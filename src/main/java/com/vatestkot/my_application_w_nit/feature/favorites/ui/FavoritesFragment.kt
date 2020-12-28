@@ -40,7 +40,7 @@ class FavoritesFragment : MvpAppCompatFragment(R.layout.favorites_fragment), Fav
     }
 
     override fun setWeathers(weathers: List<Weather>) {
-        // favoritesAdapter?.submitList(weathers)
+        favoritesAdapter?.setData(weathers)
     }
 
 
